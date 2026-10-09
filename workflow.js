@@ -2,6 +2,76 @@
   "use strict";
 
   const mediaSlots = {
+    "WF-VOLUME-ANALYSIS": {
+      kind: "placeholder",
+      title: "GPU-Native Volume Analysis",
+      placeholder: "Product demonstration coming soon",
+      imageSrc: "",
+      videoSrc: "",
+      posterSrc: "",
+      alt: "Interactive GPU volume fields, streamlines and tensor analysis in Houdini",
+      caption: ""
+    },
+    "WF-VIEWPORT-COMPARE": {
+      kind: "placeholder",
+      title: "GPU-Native Viewport Compare · In development",
+      placeholder: "Product demonstration coming soon",
+      imageSrc: "",
+      videoSrc: "",
+      posterSrc: "",
+      alt: "A/B comparisons for geometry, volumes and simulations in the Houdini viewport",
+      caption: ""
+    },
+    "WF-LIVE-WIRES": {
+      kind: "placeholder",
+      title: "Live Wires",
+      placeholder: "Product demonstration coming soon",
+      imageSrc: "",
+      videoSrc: "",
+      posterSrc: "",
+      alt: "Dynamic wire pills with data and cook information",
+      caption: ""
+    },
+    "WF-ONE": {
+      kind: "placeholder",
+      title: "Overlay Network Editor",
+      placeholder: "Product demonstration coming soon",
+      imageSrc: "",
+      videoSrc: "",
+      posterSrc: "",
+      alt: "Houdini network editor composited over the viewport",
+      caption: ""
+    },
+    "WF-COOK-FLOW": {
+      kind: "placeholder",
+      title: "Cook Flow & Last Cooked Path",
+      placeholder: "Product demonstration coming soon",
+      imageSrc: "",
+      videoSrc: "",
+      posterSrc: "",
+      alt: "Animated cook paths and recent activity history",
+      caption: ""
+    },
+    "WF-PORTALS": {
+      kind: "placeholder",
+      title: "Network & Wire Portals",
+      placeholder: "Product demonstration coming soon",
+      imageSrc: "",
+      videoSrc: "",
+      posterSrc: "",
+      alt: "Named wire endpoints and network navigation portals",
+      caption: ""
+    },
+    "WF-GRAPH-TIMELINE": {
+      kind: "placeholder",
+      title: "Graph Timeline",
+      placeholder: "Product demonstration coming soon",
+      imageSrc: "",
+      videoSrc: "",
+      posterSrc: "",
+      alt: "Graph edit history snapshots and replay",
+      caption: ""
+    },
     "WF-HERO": {
       kind: "placeholder",
       title: "Workflow overview",
@@ -44,7 +114,7 @@
     },
     "WF-PARAMETERS": {
       kind: "placeholder",
-      title: "High-Density Parameter Workspace",
+      title: "Advanced Parameter Workspace",
       placeholder: "Product clip coming soon",
       imageSrc: "",
       videoSrc: "",
@@ -54,7 +124,7 @@
     },
     "WF-CODE": {
       kind: "placeholder",
-      title: "Context-Aware IDE",
+      title: "IDE-Grade Development Environment",
       placeholder: "VEX · OpenCL · Python · C++ clips coming soon",
       imageSrc: "",
       videoSrc: "",
@@ -74,7 +144,7 @@
     },
     "WF-NODE-INFO": {
       kind: "placeholder",
-      title: "Node Info",
+      title: "Advanced Node Inspector",
       placeholder: "Product clip coming soon",
       imageSrc: "",
       videoSrc: "",
@@ -104,7 +174,7 @@
     },
     "WF-GRAPH-LENSES": {
       kind: "placeholder",
-      title: "Graph Lenses · In development",
+      title: "Graph Lenses",
       placeholder: "Concept demonstration coming later",
       imageSrc: "",
       videoSrc: "",
@@ -114,7 +184,7 @@
     },
     "WF-GRAPH-DIFF": {
       kind: "placeholder",
-      title: "Visual Graph Diffing · In development",
+      title: "Graph Diff",
       placeholder: "Concept demonstration coming later",
       imageSrc: "",
       videoSrc: "",
