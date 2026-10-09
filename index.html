@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pragmatic Workflow for Houdini | Pragmatic VFX</title>
-  <meta name="description" content="Pragmatic Workflow augments Houdini with an Advanced Parameter Workspace, Monaco Editor / IDE, Graph Diff, experimental Viewport Compare, Live Wires, Cook Flow, wire enhancements, and Overlay Network Editor.">
+  <meta name="description" content="Pragmatic Workflow for Houdini: GPU-native volume analysis, graph intelligence, IDE-grade development, advanced parameter interaction, live network telemetry and more.">
   <meta name="theme-color" content="#0b0d0f">
   <meta property="og:title" content="Pragmatic Workflow for Houdini">
   <meta property="og:description" content="A production augmentation layer for Houdini.">
@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./workflow.css?v=20261002-2358">
+  <link rel="stylesheet" href="./workflow.css?v=20261009-refresh">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -48,8 +48,8 @@
         <div class="hero-copy">
           <p class="eyebrow">Pragmatic Workflow</p>
           <h1>Houdini, supercharged.</h1>
-          <p class="hero-lede"><strong>A production augmentation layer for Houdini.</strong> Workflow leaves Houdini's procedural core intact and augments the way you operate it: how much you can see, how quickly you can act, how deeply you can inspect, and how much technical context stays attached to the work.</p>
-          <p class="hero-lede hero-lede-secondary">The current major systems span parameter work, coding, graph comparison, viewport comparison, data-aware wires, cook activity, network connection tools, and overlay editing. Each system stays attached to Houdini's existing nodes, parameters, editors, and viewport rather than trying to replace the procedural core.</p>
+          <p class="hero-lede"><strong>A production-grade development, analysis and interaction environment for Houdini.</strong> Work with deeper diagnostics, GPU-native tools, intelligent graphs and professional code editing without replacing Houdini's procedural core.</p>
+          <p class="hero-lede hero-lede-secondary">The featured systems span advanced parameter workflows, IDE-grade development, GPU-native volume analysis, network intelligence, graph editing and real-time resource feedback. GPU-Native Viewport Compare is an in-development preview.</p>
 
           <div class="hero-actions">
             <a class="button button-primary" href="#pricing">Get Workflow</a>
@@ -68,200 +68,275 @@
     <div class="section-divider" aria-hidden="true"></div>
 
     
-    <section class="feature-list" id="features" aria-label="Workflow major systems">
+    <section class="feature-list" id="features" aria-label="Pragmatic Workflow featured systems">
       <div class="shell">
-
-        <div class="feature-chapter" aria-label="MAJOR SYSTEMS">
-          <p class="feature-chapter-label">MAJOR SYSTEMS</p>
-          <p class="feature-chapter-title">Eight systems currently define the core of Pragmatic Workflow. More will be added as the product develops.</p>
+        <div class="feature-chapter" aria-label="Featured systems">
+          <p class="feature-chapter-label">FEATURED SYSTEMS</p>
+          <p class="feature-chapter-title">Fourteen integrated feature areas spanning development, GPU-native analysis, graph intelligence and interactive workflows. Refined as new systems become release-ready.</p>
         </div>
-
         <article class="feature-row feature-row-major">
           <div class="feature-copy">
             <p class="eyebrow">Parameter work</p>
             <h2>Advanced Parameter Workspace</h2>
-            <p class="benefit-subheading">A denser, more navigable way to inspect and edit Houdini nodes.</p>
-            <p class="feature-description">The workspace combines compact parameter layouts with search, node navigation, bookmarks, multiple-node editing, and integrated code editing. Everyday controls sit alongside expressions, references, animation channels, Motion FX actions, ramps, multiparms, and parameter-state feedback.</p>
-            <p class="feature-description secondary-copy">Search can target parameter names, labels, raw values, or evaluated values, with filters for non-default parameters, expressions, overrides, and time-dependent parameters. Editing still operates on the actual Houdini parameters rather than a separate parameter database.</p>
+            <p class="benefit-subheading">A more capable way to inspect and edit Houdini parameters.</p>
+            <p class="feature-description">Adaptive multi-column layouts, inline controls, ramps, numeric dragging, search highlighting and parameter-specific actions make complex nodes easier to work with.</p>
+            <p class="feature-description secondary-copy">Integrated Parameter Editor surfaces extend the same interaction model into embedded Houdini contexts.</p>
             <div class="capability-pills">
-              <span>Compact layouts</span>
+              <span>Adaptive layouts</span>
               <span>Parameter search</span>
-              <span>Bookmarks</span>
-              <span>Node navigation</span>
-              <span>Multiple-node editing</span>
-              <span>Expression &amp; animation state</span>
+              <span>Numeric dragging</span>
               <span>Ramps &amp; multiparms</span>
-              <span>Integrated code editing</span>
+              <span>Inline controls</span>
+              <span>Integrated PE</span>
             </div>
           </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-PARAMETERS"></div>
-          </figure>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-PARAMETERS"></div></figure>
         </article>
 
         <article class="feature-row feature-row-major reverse">
           <div class="feature-copy">
-            <p class="eyebrow">Code editing</p>
-            <h2>Monaco Editor / IDE</h2>
-            <p class="benefit-subheading">IDE-style editing with Houdini context attached to the code.</p>
-            <p class="feature-description">An integrated Monaco editing environment provides syntax highlighting, completion, function signatures, documentation, diagnostics, and definition navigation. It works with parameter-backed code, supported external source files, and code-to-parameter workflows.</p>
-            <p class="feature-description secondary-copy">Language intelligence is specialized by language: a dedicated VEX service, Pyright for Python and HOM, and clangd-backed C++/HDK and OpenCL analysis with Houdini-specific context where available.</p>
+            <p class="eyebrow">Code &amp; development</p>
+            <h2>IDE-Grade Development Environment</h2>
+            <p class="benefit-subheading">Professional code editing with Houdini context built in.</p>
+            <p class="feature-description">A Monaco-based development environment supports VEX, OpenCL, Python and C++ editing with completion, diagnostics, signatures and navigation.</p>
+            <p class="feature-description secondary-copy">Integrated parameter workflows and language-specific tooling connect the editor to technical work in Houdini. Language intelligence varies by environment.</p>
             <div class="capability-pills">
               <span>VEX</span>
-              <span>Python / HOM</span>
               <span>OpenCL</span>
+              <span>Python / HOM</span>
               <span>C++ / HDK</span>
-              <span>Completion</span>
-              <span>Signatures</span>
-              <span>Diagnostics</span>
-              <span>Definition navigation</span>
+              <span>Completion &amp; diagnostics</span>
+              <span>Code navigation</span>
             </div>
-            <p class="feature-impact">Monaco provides the editor surface. Workflow does not claim to embed the full VS Code product or its extension ecosystem.</p>
           </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-CODE"></div>
-          </figure>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-CODE"></div></figure>
+        </article>
+
+        <article class="feature-row feature-row-major">
+          <div class="feature-copy">
+            <p class="eyebrow">Live GPU field analysis</p>
+            <h2>GPU-Native Volume Analysis</h2>
+            <p class="benefit-subheading">Analyze fields directly in the viewport, without creating analysis nodes.</p>
+            <p class="feature-description">Explore interactive slices, voxel-center inspection, curl, divergence, vector fields, streamlines, vector trails and vector or strain-rate tensor representations.</p>
+            <p class="feature-description secondary-copy">Temporary analysis and visualization stay on the GPU with no result readback to the CPU. Source volumes still follow normal Houdini evaluation when their underlying data changes.</p>
+            <div class="capability-pills">
+              <span>GPU-native computations</span>
+              <span>Interactive slicing</span>
+              <span>Curl &amp; divergence</span>
+              <span>Vector trails</span>
+              <span>Tensor glyphs</span>
+              <span>No additional SOP nodes</span>
+            </div>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-VOLUME-ANALYSIS"></div></figure>
+        </article>
+
+        <article class="feature-row feature-row-major reverse">
+          <div class="feature-copy">
+            <p class="eyebrow">In development · GPU viewport comparison</p>
+            <h2>GPU-Native Viewport Compare</h2>
+            <p class="benefit-subheading">Compositor-grade A/B comparison for all supported geometry types.</p>
+            <p class="feature-description">Compare arbitrary geometry, volumetric and simulation results directly in Houdini's 3D viewport with interactive wipes, source isolation and stacked views.</p>
+            <p class="feature-description secondary-copy">A GPU-native comparison path provides visual modes such as Difference and Onion Skin without comparison SOP nodes or CPU readback. Difference is based on viewport appearance, not numerical geometry metrics.</p>
+            <div class="capability-pills">
+              <span>A / B sources</span>
+              <span>Interactive wipe</span>
+              <span>Geometry &amp; volumes</span>
+              <span>Simulation results</span>
+              <span>Difference</span>
+              <span>Onion Skin</span>
+            </div>
+            <p class="feature-impact">In development and deferred from the current release.</p>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-VIEWPORT-COMPARE"></div></figure>
         </article>
 
         <article class="feature-row feature-row-major">
           <div class="feature-copy">
             <p class="eyebrow">Network change review</p>
             <h2>Graph Diff</h2>
-            <p class="benefit-subheading">See how a Houdini network was authored differently.</p>
-            <p class="feature-description">Graph Diff can expose nodes that were added, deleted, renamed, or modified, connection changes, parameter changes, expressions, animation channels, and differences between an unlocked asset and its saved definition.</p>
-            <p class="feature-description secondary-copy">Baselines can come from captured snapshots, saved snapshot files, another HIP scene, or a saved HDA definition. Changes appear directly in the network through annotations, connection differences, deleted-node ghosts, optional dimming, and an inspector for previous and current values.</p>
+            <p class="benefit-subheading">See what changed across network versions and asset references.</p>
+            <p class="feature-description">Compare supported scene snapshots, HIP scenes, HDA references and network states for structural, parameter, expression and connection differences.</p>
+            <p class="feature-description secondary-copy">Inspect additions, deletions and earlier values, then selectively accept or restore supported changes to nodes, parameters and connections.</p>
             <div class="capability-pills">
-              <span>Added / deleted nodes</span>
-              <span>Renames &amp; modifications</span>
-              <span>Connection changes</span>
-              <span>Parameter changes</span>
               <span>Snapshots</span>
-              <span>HIP comparison</span>
-              <span>Saved HDA comparison</span>
-              <span>Code differences</span>
+              <span>HIP comparisons</span>
+              <span>HDA references</span>
+              <span>Node changes</span>
+              <span>Connection changes</span>
+              <span>Selective change acceptance</span>
             </div>
-            <p class="feature-impact">Graph Diff compares authored network state. It is not a geometry diff, source-control system, automatic merge tool, or scene restore system.</p>
           </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-GRAPH-DIFF"></div>
-          </figure>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-GRAPH-DIFF"></div></figure>
         </article>
 
         <article class="feature-row feature-row-major reverse">
           <div class="feature-copy">
-            <p class="eyebrow">Experimental · Viewport comparison</p>
-            <h2>Viewport Compare</h2>
-            <p class="benefit-subheading">Compare two SOP results directly in the selected viewport.</p>
-            <p class="feature-description">Assign A and B sources, swap them, move or rotate the wipe, compare horizontally or vertically, stack both results, or isolate either source. Stacked views include modes such as Difference and Onion Skin for examining visible modeling, deformation, and procedural changes.</p>
-            <p class="feature-description secondary-copy">The comparison uses native viewport rendering integration and accounts for object transforms. Geometry objects resolve to their displayed SOP so the comparison stays focused on visible SOP results.</p>
-            <div class="capability-pills">
-              <span>A / B sources</span>
-              <span>Horizontal wipe</span>
-              <span>Vertical wipe</span>
-              <span>Rotatable wipe</span>
-              <span>Stacked view</span>
-              <span>Difference</span>
-              <span>Onion Skin</span>
-            </div>
-            <p class="feature-impact">Experimental. Difference modes compare rendered viewport colors, not point positions, topology, or numerical attribute values.</p>
-          </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-VIEWPORT-COMPARE"></div>
-          </figure>
-        </article>
-
-        <article class="feature-row feature-row-major">
-          <div class="feature-copy">
-            <p class="eyebrow">Data on the connections</p>
+            <p class="eyebrow">Network data telemetry</p>
             <h2>Live Wires</h2>
-            <p class="benefit-subheading">Put useful graph data directly on the wires carrying it.</p>
-            <p class="feature-description">In SOP networks, wire labels can show added, removed, or touched attributes and volumes, point and primitive counts, memory differences, topology changes, time dependency, and available cook timing. Chain-end labels can summarize the resulting output.</p>
-            <p class="feature-description secondary-copy">Other Houdini contexts expose relevant metadata such as COP layers and types, CHOP channels and samples, LOP prims and layers, and DOP objects and simulation data. Labels can follow selections, related nodes, selected wires, or hovered connections.</p>
+            <p class="benefit-subheading">See changing data directly on its connections.</p>
+            <p class="feature-description">Wire pills reveal changes in attributes, volumes and topology alongside counts, memory deltas and cook timings.</p>
+            <p class="feature-description secondary-copy">Context-sensitive information extends to relevant COP, CHOP, LOP and DOP data. Labels use available cached metadata rather than forcing additional cooks.</p>
             <div class="capability-pills">
-              <span>Attribute changes</span>
-              <span>Volume changes</span>
-              <span>Point / primitive counts</span>
-              <span>Memory differences</span>
+              <span>Attributes &amp; volumes</span>
               <span>Topology changes</span>
+              <span>Point / primitive counts</span>
+              <span>Memory deltas</span>
               <span>Cook timing</span>
-              <span>COP / CHOP / LOP / DOP metadata</span>
+              <span>Context-aware wire pills</span>
             </div>
-            <p class="feature-impact">Live Wires uses bounded cached metadata and does not force cooks for label information. A touched attribute means cached identity or structure changed, not that every value was compared.</p>
           </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-LIVE-WIRES"></div>
-          </figure>
-        </article>
-
-        <article class="feature-row feature-row-major reverse">
-          <div class="feature-copy">
-            <p class="eyebrow">Observed cook activity</p>
-            <h2>Cook Flow</h2>
-            <p class="benefit-subheading">See where Houdini is actively cooking, even during a synchronous cook.</p>
-            <p class="feature-description">Cook Flow highlights the active node and animates relevant network connections so ongoing computation is easier to locate. Wire effects, node effects, colors, animation speed, suppression delay, and completion bursts can be configured.</p>
-            <p class="feature-description secondary-copy">An independent renderer consumes idle-captured network snapshots and cook activity data, allowing the animation to continue while Houdini's main UI thread is occupied. Nested activity can be represented by the visible parent asset.</p>
-            <div class="capability-pills">
-              <span>Active-node highlight</span>
-              <span>Animated connections</span>
-              <span>Independent renderer</span>
-              <span>Delay threshold</span>
-              <span>Completion bursts</span>
-              <span>Nested activity</span>
-            </div>
-            <p class="feature-impact">Cook Flow is an activity indicator, not percentage progress, data-packet visualization, or a replacement for profiling.</p>
-          </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-COOK-FLOW"></div>
-          </figure>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-LIVE-WIRES"></div></figure>
         </article>
 
         <article class="feature-row feature-row-major">
           <div class="feature-copy">
-            <p class="eyebrow">Network connection tools</p>
-            <h2>Bezier Wires / Wire Enhancements</h2>
-            <p class="benefit-subheading">Change how connections read, focus, hide, reroute, and cut.</p>
-            <p class="feature-description">Bezier routing draws smooth curves between connectors with configurable curvature and smoother transitions through network dots. Straight and Rounded styles remain available, while appearance controls cover thickness, opacity, fading, and arrows.</p>
-            <p class="feature-description secondary-copy">Related wire tools include Branch Focus for dimming unrelated connections, connection hiding with endpoint indicators, rerouting gestures that insert aligned network dots, and configurable wire-cutting gestures.</p>
+            <p class="eyebrow">Graph intelligence</p>
+            <h2>Graph Lenses</h2>
+            <p class="benefit-subheading">Explore a network through different analytical perspectives.</p>
+            <p class="feature-description">Switch between performance, geometry, dependency, change, error and contribution perspectives to focus on the information you need.</p>
+            <p class="feature-description secondary-copy">A non-destructive analytical view of complex networks that complements Graph Diff and Live Wires.</p>
             <div class="capability-pills">
-              <span>Bezier routing</span>
-              <span>Curvature control</span>
-              <span>Thickness &amp; opacity</span>
-              <span>Arrows &amp; fading</span>
-              <span>Branch Focus</span>
-              <span>Connection hiding</span>
-              <span>Rerouting gestures</span>
-              <span>Wire cutting</span>
+              <span>Performance</span>
+              <span>Geometry</span>
+              <span>Dependencies</span>
+              <span>Change</span>
+              <span>Errors</span>
+              <span>Contribution</span>
             </div>
-            <p class="feature-impact">Bezier routing is a connection presentation system, not automatic obstacle avoidance or a global graph-layout solver. Native compatibility remains build and platform specific.</p>
           </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-WIRE-ENHANCEMENTS"></div>
-          </figure>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-GRAPH-LENSES"></div></figure>
         </article>
 
         <article class="feature-row feature-row-major reverse">
           <div class="feature-copy">
-            <p class="eyebrow">Graph + result in one workspace</p>
+            <p class="eyebrow">Immersive editing</p>
             <h2>Overlay Network Editor</h2>
-            <p class="benefit-subheading">Work on a real Houdini network editor while keeping the viewport result in context.</p>
-            <p class="feature-description">Overlay Network Editor places a usable Houdini network editor over the viewport. Adjust opacity, toggle visibility, temporarily hide it with a hold shortcut, switch between graph interaction and mouse pass-through, and fit the overlay to the active viewer.</p>
-            <p class="feature-description secondary-copy">The overlay hosts actual Houdini editor pane tabs rather than reimplementing the network editor, and it supports Network/APEX editor switching where applicable. Compatible Workflow network tools continue to operate inside that editor.</p>
+            <p class="benefit-subheading">Edit the real graph while keeping the viewport result visible.</p>
+            <p class="feature-description">Overlay a Houdini network editor over the viewport with adjustable transparency and quick access.</p>
+            <p class="feature-description secondary-copy">Use borderless presentation, reveal and hide controls, and mouse pass-through to move between graph editing and viewport interaction.</p>
             <div class="capability-pills">
-              <span>Real Houdini editor pane</span>
+              <span>Houdini editor pane</span>
               <span>Viewport overlay</span>
               <span>Adjustable opacity</span>
-              <span>Hold-to-hide</span>
+              <span>Borderless presentation</span>
+              <span>Quick access</span>
               <span>Mouse pass-through</span>
-              <span>Active-viewer fitting</span>
-              <span>Network / APEX switching</span>
             </div>
-            <p class="feature-impact">The graph is visually overlaid on the viewport. Nodes are not placed in 3D space, and pass-through and graph interaction are separate input modes.</p>
           </div>
-          <figure class="feature-media">
-            <div class="media-frame" data-media-slot="WF-ONE"></div>
-          </figure>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-ONE"></div></figure>
         </article>
 
+        <article class="feature-row feature-row-major">
+          <div class="feature-copy">
+            <p class="eyebrow">Cooking activity &amp; history</p>
+            <h2>Cook Flow &amp; Last Cooked Path</h2>
+            <p class="benefit-subheading">See what is cooking and where computation just traveled.</p>
+            <p class="feature-description">Cook Flow animates active connections and nodes during network evaluation, while Last Cooked Path highlights recently cooked routes.</p>
+            <p class="feature-description secondary-copy">Activity indicators, history and fading help locate work without suggesting inaccurate percent-complete progress.</p>
+            <div class="capability-pills">
+              <span>Animated connections</span>
+              <span>Active nodes</span>
+              <span>Cook path history</span>
+              <span>Fading trails</span>
+              <span>Configurable effects</span>
+            </div>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-COOK-FLOW"></div></figure>
+        </article>
+
+        <article class="feature-row feature-row-major reverse">
+          <div class="feature-copy">
+            <p class="eyebrow">Graph navigation</p>
+            <h2>Network &amp; Wire Portals</h2>
+            <p class="benefit-subheading">Navigate sprawling networks without losing the connections.</p>
+            <p class="feature-description">Named wire endpoints help organize long connections; navigation portals, bookmarks and child-network previews provide faster access to related locations.</p>
+            <p class="feature-description secondary-copy">Keep graph structure discoverable across large nested networks.</p>
+            <div class="capability-pills">
+              <span>Named wire portals</span>
+              <span>Navigation portals</span>
+              <span>Bookmarks</span>
+              <span>Child-network previews</span>
+              <span>Fast navigation</span>
+            </div>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-PORTALS"></div></figure>
+        </article>
+
+        <article class="feature-row feature-row-major">
+          <div class="feature-copy">
+            <p class="eyebrow">Deep node diagnostics</p>
+            <h2>Advanced Node Inspector</h2>
+            <p class="benefit-subheading">More than the standard Houdini middle-click information popup.</p>
+            <p class="feature-description">Inspect geometry, attributes, groups, volumes, memory, topology and cooking statistics, including change markers and deduplicated warnings.</p>
+            <p class="feature-description secondary-copy">Input-relative changes and volume detail provide a deeper view of what each node produces.</p>
+            <div class="capability-pills">
+              <span>Geometry &amp; attributes</span>
+              <span>Volumes &amp; topology</span>
+              <span>Memory deltas</span>
+              <span>Cook statistics</span>
+              <span>Change markers</span>
+              <span>Warnings &amp; errors</span>
+            </div>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-NODE-INFO"></div></figure>
+        </article>
+
+        <article class="feature-row feature-row-major reverse">
+          <div class="feature-copy">
+            <p class="eyebrow">Adaptive shortcuts</p>
+            <h2>Context-Sensitive Hotkeys</h2>
+            <p class="benefit-subheading">Make actions respond to where you are and what is selected.</p>
+            <p class="feature-description">Rule-based shortcuts can depend on editor context, selection, modifiers and other supported conditions.</p>
+            <p class="feature-description secondary-copy">Contextual parameter popups, node actions and customizable rules reduce repetitive interaction.</p>
+            <div class="capability-pills">
+              <span>Rule-based actions</span>
+              <span>Context awareness</span>
+              <span>Selection state</span>
+              <span>Modifiers</span>
+              <span>Parameter popups</span>
+              <span>Custom rules</span>
+            </div>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-HOTKEYS"></div></figure>
+        </article>
+
+        <article class="feature-row feature-row-major">
+          <div class="feature-copy">
+            <p class="eyebrow">Live system resources</p>
+            <h2>Resource Monitor</h2>
+            <p class="benefit-subheading">Four circular gauges with immediate performance feedback.</p>
+            <p class="feature-description">Keep supported CPU, GPU, RAM and VRAM usage visible through configurable circular resource indicators.</p>
+            <p class="feature-description secondary-copy">Adjust appearance and smoothing, and inspect available single-core activity and busy-state feedback.</p>
+            <div class="capability-pills">
+              <span>CPU</span>
+              <span>GPU</span>
+              <span>RAM</span>
+              <span>VRAM</span>
+              <span>Circular gauge styles</span>
+              <span>Live activity</span>
+            </div>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-HUD"></div></figure>
+        </article>
+
+        <article class="feature-row feature-row-major reverse">
+          <div class="feature-copy">
+            <p class="eyebrow">Graph history &amp; replay</p>
+            <h2>Graph Timeline</h2>
+            <p class="benefit-subheading">Follow the evolution of a procedural network.</p>
+            <p class="feature-description">Manual and automatic snapshots, change comparisons, cook history, edit recording and replay bring a temporal dimension to graph analysis.</p>
+            <p class="feature-description secondary-copy">Review earlier states and the sequence of edits rather than comparing only two endpoints.</p>
+            <div class="capability-pills">
+              <span>Snapshots</span>
+              <span>Change comparisons</span>
+              <span>Cook history</span>
+              <span>Edit recording</span>
+              <span>Playback</span>
+            </div>
+          </div>
+          <figure class="feature-media"><div class="media-frame" data-media-slot="WF-GRAPH-TIMELINE"></div></figure>
+        </article>
       </div>
     </section>
 
@@ -400,208 +475,105 @@
       <div class="shell">
         <div class="section-heading">
           <p class="eyebrow">Feature explorer</p>
-          <h2>Everything around the core systems.</h2>
-          <p>Smaller interaction tools, extensions, and supporting controls live here so the main page can stay focused on the systems that materially change daily Houdini work.</p>
+          <h2>More tools, woven into the workflow.</h2>
+          <p>The flagship systems are only part of Workflow. Explore the supporting network, data and productivity tools here.</p>
         </div>
-
         <div class="explorer-toolbar" aria-label="Feature explorer controls">
           <label class="sr-only" for="feature-filter">Filter features</label>
           <input class="feature-filter" id="feature-filter" type="search" placeholder="Filter features" data-feature-filter>
           <button class="toolbar-button" type="button" data-expand-all>Expand all</button>
           <button class="toolbar-button" type="button" data-collapse-all>Collapse all</button>
         </div>
-
         <div class="explorer-groups">
           <details class="feature-group" open>
-            <summary>Overlay Network Editor and immersive workspace</summary>
+            <summary>Integrated editors</summary>
             <ul>
-              <li>Network editor layered directly over the viewport</li>
-              <li>Adjustable overlay opacity with quick reveal/hide behavior</li>
-              <li>Edit/result feedback in the same screen area</li>
-              <li>Coordinated use with the Workflow Parameter Workspace</li>
-              <li>Independent enable control</li>
+              <li>Integrated Parameter Editor surfaces</li>
+              <li>Integrated Network Editor views</li>
+              <li>Shared interface settings</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Context-Sensitive Hotkey &amp; Action System</summary>
+            <summary>Wire appearance &amp; editing</summary>
             <ul>
-              <li>User-authored rules combining network context, modifiers, and selected/unselected state</li>
-              <li>Arbitrary Python function or expression calls with the originating event context</li>
-              <li>Custom Python can implement additional selection and type-specific logic</li>
-              <li>Operator creation with supported presets, naming, and button actions</li>
-              <li>Tab tool recipes and decoration recipes</li>
-              <li>Native shelf-tool execution</li>
-              <li>Custom menus and nested menu items</li>
-              <li>User-authored action configuration</li>
-              <li>Configurable mouse actions</li>
-              <li>Optional connected-node dragging</li>
-              <li>Optional touch and Wacom pinch controls with sensitivity settings</li>
-              <li>Node shape preferences</li>
+              <li>Bézier and alternative wire styles</li>
+              <li>Thickness, gradients, opacity, arrows and fading</li>
+              <li>Wire cutting, rerouting and connection hiding</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>High-Density Parameter Workspace</summary>
+            <summary>Node markers &amp; navigation</summary>
             <ul>
-              <li>High-density control layouts for complex nodes</li>
-              <li>Spatial grouping and compact path, string, menu, and numeric treatments</li>
-              <li>Responsive interaction and dependent-control updates on large parameter interfaces</li>
-              <li>Parameter-state and expression feedback</li>
-              <li>Configurable density and label presentation</li>
-              <li>Integrated language-intelligent code editing</li>
+              <li>Selection, file I/O, stored and locked geometry markers</li>
+              <li>Bookmarks, fast panning and child-topology previews</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Context-Aware IDE</summary>
+            <summary>Persistent Data Probes</summary>
             <ul>
-              <li>Monaco-based editor integration</li>
-              <li>Dedicated VEX language service</li>
-              <li>OpenCL language support with Houdini binding context</li>
-              <li>Python language assistance with HOM typing information</li>
-              <li>C++ and HDK language-service integration</li>
-              <li>One-click entry to guided native development toolchain setup</li>
-              <li>Environment verification through a fresh HDK compile and native function call</li>
-              <li>Integrated C++ editing for compatible operator workflows, including the separately supplied C++ Wrangle in Pragmatic Operators</li>
-              <li>Completion, hover information, signatures, and navigation where supported</li>
+              <li>Pin cached node outputs for inspection</li>
+              <li>Compare retained supported results without requesting additional cooks</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Pragmatic Node Info</summary>
+            <summary>Refactor with Preview</summary>
             <ul>
-              <li>Input-relative created / modified / deleted attribute classification</li>
-              <li>Input-relative created / modified / deleted group classification</li>
-              <li>Topology-change detection</li>
-              <li>Per-attribute, per-group, and VDB memory deltas where available</li>
-              <li>VDB tree / metadata / transform touch indicators</li>
-              <li>Attribute visualizer integration and retained visualizer preferences</li>
-              <li>Cached-data status and output-selection handling</li>
+              <li>Preview supported graph restructuring before committing changes</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Advanced Performance Profiler</summary>
+            <summary>Pragmatic Spreadsheet</summary>
             <ul>
-              <li>Hotspot-oriented analysis over Houdini performance data</li>
-              <li>Event call tree and bottom-up caller analysis</li>
-              <li>Event flame graph</li>
-              <li>VEX program reports with separate attribution limits</li>
-              <li>Node selection and path actions from recorded hotspots</li>
+              <li>Geometry and supported data tables</li>
+              <li>Filtering, sorting, matrix cells, change markers and volume data</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Treeview extensions</summary>
+            <summary>Tree View</summary>
             <ul>
-              <li>Search by node name, path, and type, including wildcard searches</li>
-              <li>Root navigation, history, and context shortcuts</li>
-              <li>Frame-node action in the Network Editor</li>
-              <li>Optional read-only saved-HDA-definition catalogs</li>
+              <li>Searchable node hierarchy</li>
+              <li>Selection linking, flag controls and asset browsing</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Tab Menu enhancements</summary>
+            <summary>HDA Manager</summary>
             <ul>
-              <li>Alias and acronym matching</li>
-              <li>Favorites and numbered-result workflows</li>
-              <li>Native execution/fallback for supported tools and recipes</li>
+              <li>Browse and manage digital asset libraries and definitions</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Bezier Network Wires</summary>
+            <summary>Viewport controls</summary>
             <ul>
-              <li>Custom Bezier wire rendering in the Network Editor</li>
-              <li>Smooth continuous connection paths</li>
-              <li>Classic Houdini-style network routing restored as a modern Workflow feature</li>
+              <li>Update-mode and No Draw controls</li>
+              <li>Viewport OSD and camera-lock indicators</li>
+              <li>Adaptive tumble pivot and clipboard capture</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Resource Monitor</summary>
+            <summary>Recent Files &amp; Help Browser</summary>
             <ul>
-              <li>CPU, RAM, GPU, and VRAM gauges where supported</li>
-              <li>Ring, Liquid, Radiant Liquid, Segmented Arc, Ribbon Sweep, and Thermal Bloom</li>
-              <li>Smooth value transitions</li>
-              <li>Per-resource fill colors</li>
-              <li>Gauge scale, spacing, opacity, and typography</li>
-              <li>Optional cook timeline, disabled by default in the current settings schema</li>
-              <li>Animation replay with configurable rise, hold, return, and stagger timings</li>
-              <li>Optional startup animation and inactivity settings</li>
+              <li>Searchable recent scene history</li>
+              <li>Installed-version Houdini help, search, bookmarks, tabs and notes</li>
             </ul>
           </details>
 
           <details class="feature-group">
-            <summary>Timeline interaction</summary>
+            <summary>Options</summary>
             <ul>
-              <li>Configurable global timeline-scrub gesture</li>
-              <li>Optional compact Workflow playbar integration</li>
-            </ul>
-          </details>
-
-          <details class="feature-group feature-group-future">
-            <summary>Graph Lenses · In development</summary>
-            <ul>
-              <li>Non-destructive Structure, Data, Memory, Change, and recorded-cook views</li>
-              <li>Semantic zoom and selective emphasis without modifying the underlying graph</li>
-              <li>Planned nested-HDA and dependency visualization</li>
-            </ul>
-          </details>
-
-          <details class="feature-group feature-group-future">
-            <summary>Visual Graph Diffing · In development</summary>
-            <ul>
-              <li>Planned visual comparison of node, connection, parameter, and branch changes</li>
-              <li>Designed for HDA iteration, version review, and regression debugging</li>
-            </ul>
-          </details>
-
-          <details class="feature-group feature-group-future">
-            <summary>Persistent Probes &amp; Branch Experiments · In development</summary>
-            <ul>
-              <li>Planned retained probes and history attached to graph locations</li>
-              <li>Alternate branch experiments for comparison and investigation</li>
-            </ul>
-          </details>
-
-          <details class="feature-group feature-group-future">
-            <summary>Continuous Hierarchy Zoom · In development</summary>
-            <ul>
-              <li>Continuous navigation through nested networks</li>
-              <li>Inline HDA expansion and HDA X-Ray concepts</li>
-              <li>Semantic zoom while preserving parent context</li>
-            </ul>
-          </details>
-
-          <details class="feature-group feature-group-future">
-            <summary>Cook Gate &amp; Freeze Region · In development</summary>
-            <ul>
-              <li>Temporary evaluation boundaries</li>
-              <li>Freeze known-good network regions while iterating elsewhere</li>
-            </ul>
-          </details>
-
-          <details class="feature-group feature-group-future">
-            <summary>Reference Lens &amp; Connect to Bookmark · In development</summary>
-            <ul>
-              <li>Expose indirect parameter references and hidden dependencies</li>
-              <li>Named long-distance graph destinations</li>
-            </ul>
-          </details>
-
-          <details class="feature-group">
-            <summary>Workspace preferences</summary>
-            <ul>
-              <li>Shared density, presentation, and interaction settings across integrated tools</li>
-              <li>Configurable typography, spacing, opacity, and supported visual preferences</li>
-              <li>Independent enable controls for deeper workflow changes</li>
+              <li>Searchable settings and category match counts</li>
+              <li>Live previews and settings review marks</li>
             </ul>
           </details>
         </div>
-
         <p class="filter-empty" data-filter-empty>No matching feature groups.</p>
       </div>
     </section>
@@ -621,7 +593,7 @@
 
           <details class="faq-item">
             <summary>What is included with Workflow?</summary>
-            <p>Workflow includes the shipping systems described in the main feature sections: High-Density Parameter Workspace, Context-Aware IDE, Pragmatic Node Info, Context-Aware Action System, Overlay Network Editor, Bezier Network Wires, Resource Monitor, Advanced Performance Profiler, C++ &amp; HDK Development, and their supporting workflow tools. Graph Lenses, Visual Graph Diffing, Continuous Hierarchy Zoom / HDA X-Ray, Persistent Probes / Branch Experiments, Cook Gate / Freeze Region, and Reference Lens / Connect to Bookmark are labeled as in-development directions and are not current shipping claims. Pragmatic Operators is a separate product.</p>
+            <p>Workflow combines advanced parameter editing, IDE-grade development, GPU-native volume analysis, graph diagnostics, network navigation and supporting productivity systems. GPU-Native Viewport Compare is in development and is not part of the current release. Features included in a purchase depend on the verified build; Pragmatic Operators is a separate product.</p>
           </details>
 
           <details class="faq-item">
@@ -646,7 +618,7 @@
       <div class="shell">
         <p class="eyebrow">Pragmatic Workflow for Houdini</p>
         <h2>Keep Houdini. Upgrade the interaction.</h2>
-        <p class="final-cta-copy">Pragmatic Workflow leaves Houdini's procedural core intact and augments the interaction around it: denser, more direct, more contextual, and easier to inspect.</p>
+        <p class="final-cta-copy">A deeper way to code, inspect, compare, debug and interact inside Houdini, while keeping the procedural environment you already know.</p>
         <div class="final-actions">
           <a class="button button-primary" href="#pricing">Get Workflow</a>
           <a class="button" href="#all-features">Explore all features</a>
@@ -667,6 +639,6 @@
     </div>
   </footer>
 
-  <script src="./workflow.js?v=20261002-2358"></script>
+  <script src="./workflow.js?v=20261009-refresh"></script>
 </body>
 </html>
